@@ -3,7 +3,7 @@
 x64 inline hooking library for Windows
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)](https://github.com/yourpov/api-hook)
+[![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)](https://github.com/yourpovv/api-hook)
 [![Language](https://img.shields.io/badge/C%2B%2B-17-00599C?logo=cplusplus&logoColor=white)](https://isocpp.org/)
 
 ## Build
@@ -11,7 +11,7 @@ x64 inline hooking library for Windows
 needs [visual studio 2022](https://visualstudio.microsoft.com/) with the desktop development with c++ workload
 
 ```bash
-git clone https://github.com/yourpov/api-hook.git
+git clone https://github.com/yourpovv/api-hook.git
 cd api-hook
 build.bat
 ```
@@ -42,4 +42,4 @@ if (hook::create(target, (void*)&hookedSleep, (void**)&realSleep)) {
 
 ## License
 
-[MIT](LICENSE) © [YourPOV](https://github.com/yourpov)
+[MIT](LICENSE) © [YourPOVV](https://github.com/yourpovv)
